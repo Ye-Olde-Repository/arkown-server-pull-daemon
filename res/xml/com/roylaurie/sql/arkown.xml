@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<connectionParameters>
+    <connection modelClass="com.roylaurie.arkown.server.Server">
+        <context>read</context>
+        <hostname>localhost</hostname>
+        <database>arkown</database>
+        <username>arkown_read</username>
+        <password>p4ssw0rd</password>
+        <table>server</table>
+    </connection>
+    <connection modelClass="com.roylaurie.arkown.server.Server">
+        <context>write</context>
+        <hostname>localhost</hostname>
+        <database>arkown</database>
+        <username>arkown_write</username>
+        <password>p4ssw0rd</password>
+        <table>server</table>
+    </connection>
+    <connection modelClass="com.roylaurie.arkown.server.PlayerClient">
+        <context>read</context>
+        <hostname>localhost</hostname>
+        <database>arkown</database>
+        <username>arkown_read</username>
+        <password>p4ssw0rd</password>
+        <table>client</table>
+    </connection>
+    <connection modelClass="com.roylaurie.arkown.server.PlayerClient">
+        <context>write</context>
+        <hostname>localhost</hostname>
+        <database>arkown</database>
+        <username>arkown_write</username>
+        <password>p4ssw0rd</password>
+        <table>client</table>
+    </connection>       
+</connectionParameters>
